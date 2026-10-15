@@ -1,0 +1,30 @@
+# CubeIDE build output
+/Debug/
+/Release/
+/build/
+
+# Generated compiler files
+*.o
+*.d
+*.su
+*.cyclo
+*.elf
+*.map
+*.list
+*.hex
+*.bin
+
+# Editor/OS temporary files
+*~
+*.bak
+*.tmp
+.DS_Store
+Thumbs.db
+/.metadata/
+
+# Local credentials
+.env
+.env.*
+!.env.example
+
+# Keep CubeIDE project files and portable .settings in version control.
